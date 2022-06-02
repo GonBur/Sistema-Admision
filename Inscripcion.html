@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incripcion</title>
+    <link rel="stylesheet" href="style/inscripcion.css">
+</head>
+<body>
+    <main>
+                 <!--header-->
+            <header>  
+
+            <!--div conteiner-->
+                <div class="conteiner">
+
+                    <!--boton volver atras-->  
+         <div class="boton_volver">
+            <a href="sistema_admision.html">Volver</a>
+            </div>
+
+                    <!--imagen logo-->
+                    <div class="logo">
+        <img src="img/logo_iestp.png" alt="">
+                    </div>
+    
+                    <!--titulo-->
+                    <div class="titulo">
+            <h1>INSTITUTO DE EDUCACIÓN SUPERIOR
+                TECNOLÓGICO PUBLICO "CIENEGUILLO -SULLANA"</h1>
+                    </div>
+                </div>
+            </header>
+
+            <!--contenido-->
+        <h2>Datos para la Inscripción</h2>
+
+        <!--informacion a llenar-->
+        <div class="conteiner_01">
+
+            <!--datos usuario-->
+            <div class="datos_usuario">
+<form>
+<label for="DNI">DNI:</label>
+<input type="number" placeholder="Ingrese el Numero de DNI" id="DNI">
+
+<br>
+
+<label for="Apellidos">Apellidos:</label>
+<input type="text" placeholder="Ingrese los Apellidos" id="Apellidos">
+
+<br>
+
+<label for="Nombre">Nombre:</label>
+<input type="text" placeholder="Ingrese el Nombre" id="Nombre">
+
+<br>
+
+<label for="especialidad">Especialidad:</label>
+<select name="" id="especialidad">
+    <option value="">Seleccionar Carrera Tecnica</option>
+    <option value="">Diseño y Programacion web</option>
+    <option value="">Enfermeria Tecnica</option>
+    <option value="">Construcion Civil</option>
+    <option value="">Contabilidad</option>
+    <option value="">Industrias Alimentarias</option>
+    <option value="">Mecanica Automotriz</option>
+    <option value="">Mecánica de Producción Industrial</option>
+    <option value="">Producción Agropecuaria</option>
+</select>
+</form>
+            </div>
+
+            <!--documentos en pdf-->
+            <div class="documentos_pdf">
+                <h3>Documentos en Formato PDF</h3>
+<label for="copia_dni">Copia del DNI:</label>
+<input type="file" placeholder="Copia del DNI" id="copia_dni">
+
+
+
+<label for="partida_nacimiento">Partida de Nacimiento:</label>
+<input type="file" placeholder="Partida de Nacimiento" id="partida_nacimiento">
+
+<label for="Certifica_estudios">Certificado de Estudios:</label>
+<input type="file" placeholder="Certificado de Estudios" id="Certifica_estudios">
+
+<label for="Formulario_postulante">Formulario del Postulante:</label>
+<input type="file" placeholder="Formulario del Postulante" id="Formulario_postulante">
+            </div>
+        </div>
+
+        <!--BOTONES-->
+        <section class="botones">
+            <button>Nuevos Datos</button>
+            <button>Guardar</button>
+            <button>Cancelar</button>
+        </section>
+
+        <!--FRASE MOTIVADORA Y FECHA-->
+        <div class="fecha_frase">
+                <div class="frase_motivadora">
+<p>El exito no esta en vencer siempre, si no en no desanimarse nunca</p>
+        </div>
+
+        <div class="fecha">
+<input type="date" name="" id="">
+        </div>
+    </div>
+    </main>
+</body>
+</html>
